@@ -1,0 +1,52 @@
+@import url('general.css');
+
+form {
+  background-color: rgba(0,0,0,0.4);
+  border: 1px solid #000;
+  padding: 4% 2% 2% 2%;
+}
+
+.form-group, div.titulo {
+  display: flex;
+  justify-content: center;
+}
+
+div.titulo {
+  margin-bottom: 2rem;
+}
+
+.col-form-label {
+  text-align: center;
+  color: #000;
+}
+
+.form-control {
+  color: #000;
+}
+
+div.error {
+  margin-top: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #cc0202;
+}
+
+input, textarea, select {
+  background-image: url('../img/bkground.png');
+}
+
+.c-img {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2%;
+}
+
+img#imagen-producto {
+  width: 100%;
+  border: 2px solid #000;
+  max-width: 200px;
+  max-height: 200px;
+  min-width: 200px;
+  min-height: 200px;
+}

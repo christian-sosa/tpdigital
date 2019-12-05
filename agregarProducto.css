@@ -1,0 +1,42 @@
+@import url('general.css');
+
+form {
+  background-color: rgba(0,0,0,0.4);
+  border: 1px solid #000;
+  padding: 4% 2% 2% 2%;
+}
+
+.col-form-label {
+  color: #000;
+  text-align: center;
+}
+
+input, select, textarea {
+  background-image: url('../img/bkground.png');
+}
+
+.form-control {
+  color: #000;
+}
+
+div.titulo {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+}
+
+div.error {
+  margin-top: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #cc0202;
+}
+
+@media (min-width: 574px) {
+  .col-form-label {
+    text-align: right;
+  }
+}
